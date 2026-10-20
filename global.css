@@ -214,6 +214,11 @@ body {
   padding: 1rem var(--container-padding);
 }
 
+.logo-link {
+  color: inherit;
+  text-decoration: none;
+}
+
 .nav-brand .logo {
   font-size: 1.5rem;
   font-weight: 600;
@@ -340,6 +345,10 @@ body {
   line-height: 1.8;
 }
 
+.card-text + .card-text {
+  margin-top: 1rem;
+}
+
 .card-text strong {
   color: var(--foreground);
   font-weight: 600;
@@ -392,6 +401,14 @@ body {
   text-decoration: underline;
 }
 
+.contact-policies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  margin-top: 2rem;
+}
+
 /* Footer */
 .footer {
   background-color: var(--card);
@@ -400,9 +417,102 @@ body {
   text-align: center;
 }
 
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+  color: var(--muted-foreground);
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
 .footer-text {
   color: var(--muted-foreground);
   font-size: 0.875rem;
+}
+
+/* Support, privacy, and terms */
+.doc {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.doc-container {
+  max-width: 740px;
+}
+
+.doc-title {
+  text-align: left;
+  margin-bottom: 1.25rem;
+}
+
+.policy-note {
+  color: var(--foreground);
+  background-color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 0.875rem 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.doc p,
+.doc li {
+  color: var(--muted-foreground);
+  line-height: 1.8;
+}
+
+.doc p {
+  margin-bottom: 1rem;
+}
+
+.doc h2 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--foreground);
+  margin: 2rem 0 0.75rem;
+}
+
+.doc h3 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--foreground);
+  margin: 1.5rem 0 0.5rem;
+}
+
+.doc ul {
+  margin: 0 0 1rem 1.25rem;
+}
+
+.doc li + li {
+  margin-top: 0.5rem;
+}
+
+.doc a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.doc a:hover {
+  text-decoration: underline;
+}
+
+.doc address {
+  font-style: normal;
+  color: var(--muted-foreground);
+  line-height: 1.8;
 }
 
 /* Responsive Design */

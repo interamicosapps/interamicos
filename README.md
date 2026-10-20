@@ -4,7 +4,7 @@ A professional landing page for Inter Amicos LLC, built with HTML and CSS.
 
 ## Overview
 
-This is a simple, static website designed to meet Apple App Store requirements for business verification. It includes information about Inter Amicos LLC and the upcoming "O State Nightlife" mobile application.
+This is a simple, static website designed to meet Apple App Store requirements for business verification. It includes information about Inter Amicos LLC and the Bar Fest mobile application.
 
 ## Files
 
