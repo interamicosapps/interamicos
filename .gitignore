@@ -3,9 +3,10 @@
 Thumbs.db
 desktop.ini
 
-# Ignore Office files (keep the checklist if needed, but ignore temp files)
+# Ignore Office files
 ~$*.docx
 *.tmp
+Company Setup Checklist.docx
 
 # Ignore editor files
 .vscode/
